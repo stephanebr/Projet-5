@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href = "css/style.css"/>
+  <title>Citation aléatoire</title>
+</head>
+<body>
+    <div id="content">
+        <h1>Générateur de citation</h1>
+        <p id="phrases"></p>
+
+        <form action="/">
+            <select id="type" required>
+                <option value="court">Phrase courte</option>
+                <option value="long">Phrase longue</option>
+            </select>
+
+            <input id="quantite" type="number" min="1" max="5" value="1"/>
+
+            <input type="submit" id="generer" value="Générer"/>
+        </form>
+
+        <script src="projet-5-etape-2.js"></script>
+    </div>
+</body>
+</html>

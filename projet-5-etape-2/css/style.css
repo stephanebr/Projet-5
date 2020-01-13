@@ -1,0 +1,29 @@
+body {
+    background: #ccc;
+    margin: 0;
+    font-size: 1.5em; 
+}
+
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+h1 {
+    max-width: 100%;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+p {
+    width: 100%;
+    text-align: center;
+    border: #03A9F4 5px solid;
+}
+
+form {
+    text-align: center;
+}
